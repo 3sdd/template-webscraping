@@ -1,9 +1,8 @@
 
 import puppeteer from "puppeteer"
-import fs from "fs"
+import fs from "node:fs"
 
 async function main(){
-
     // ブラウザ起動
     // headless:falseにするとブラウザが表示される。 trueではブラウザは見えなくなる
     const b=await puppeteer.launch({
