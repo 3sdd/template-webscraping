@@ -52,6 +52,7 @@ async function main(){
 
     // ブラウザ閉じる
     await browser.close()
+
 }
 
 
